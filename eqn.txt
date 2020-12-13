@@ -1,0 +1,159 @@
+﻿"cleatShaftLen" = 3
+
+"cleatHeadLen" = 4mm
+
+"cleatHeadGirth" = 12mm
+
+"cleatShaftGirth" = 8mm
+
+"cleatTolOffset" = 0.4mm
+
+"cleatTolOffsetLoose" = 0.6mm
+
+"cleatCham" = 1mm
+
+"cleatSpacing" = 30mm
+
+"cleatTriangleAngle" = 25deg
+
+"cleatMinimumTriangleAngle" = 12deg
+
+"cleatLen" = "cleatShaftLen" + "cleatHeadLen"
+
+"cleatFemShaftLen" = "cleatShaftLen" - "cleatTolOffset"
+
+"cleatFemHeadLen" = "cleatHeadLen" + "cleatTolOffset" * 1.25
+
+"cleatFemHeadGirth" = "cleatHeadGirth" + "cleatTolOffset"
+
+"cleatFemShaftGirth" = "cleatShaftGirth" + "cleatTolOffset"
+
+"cleatFemLen" = "cleatFemShaftLen" + "cleatFemHeadLen"
+
+"cleatFemLooseShaftLen" = "cleatShaftLen" - "cleatTolOffsetLoose"
+
+"cleatFemLooseHeadLen" = "cleatHeadLen" + "cleatTolOffsetLoose" * 1.25
+
+"cleatFemLooseHeadGirth" = "cleatHeadGirth" + "cleatTolOffsetLoose"
+
+"cleatFemLooseShaftGirth" = "cleatShaftGirth" + "cleatTolOffsetLoose"
+
+"cleatFemLooseLen" = "cleatFemShaftLen" + "cleatFemHeadLen"
+
+"fsg" = "cleatFemShaftGirth"
+
+"fsl" = "cleatFemShaftLen"
+
+"fhg" = "cleatFemHeadGirth"
+
+"fhl" = "cleatFemHeadLen"
+
+"msg" = "cleatShaftGirth"
+
+"msl" = "cleatShaftLen"
+
+"mhg" = "cleatHeadGirth"
+
+"mhl" = "cleatHeadLen"
+
+"nCleats" = 2
+
+"threadID" = 8.3mm
+
+"threadPitch" = 2mm
+
+"threadOD" = 10.7mm
+
+"threadMaleOD" = 10.0mm
+
+"threadProtrusion" = ("threadOD" - "threadID") / 2
+
+"threadMaleID" = "threadMaleOD" - "threadProtrusion" * 2
+
+"threadMaleSocketDiam" = 15.0mm
+
+"threadMaleHex" = 6mm
+
+"stFactor" = 0.6
+
+"stID" = "threadID" * "stFactor"
+
+"stOD" = "threadOD" * "stFactor"
+
+"stPitch" = "threadPitch" * "stFactor"
+
+"stProtrusion" = ("stOD" - "stID") / 2
+
+"stMaleOD" = "threadMaleOD" * "stFactor"
+
+"stMaleID" = "threadMaleID" * "stFactor"
+
+"stMaleIDLoose" = "stMaleID"
+
+"stProtrusionLoose" = "stProtrusion" - 0.05mm
+
+"stHexDiam" = 2.5mm
+
+"stHexPad" = 0.08mm
+
+"stSocketHeadProtrusion" = 0.65mm
+
+"stSocketHeadDiam" = "stOD" + "stSocketHeadProtrusion"
+
+"stSocketHeadLen" = 1.2mm
+
+"stSocketHeadLenPad" = 0.1mm
+
+"stSocketHeadCounterboreDepth" = "stSocketHeadLen" + "stSocketHeadLenPad"
+
+"stFlatHeadDiamMale" = 9.4mm
+
+"stFlatHeadDiamFemale" = 9.6mm
+
+"stFlatHeadChamAngle" = 45deg
+
+"stFlatHeadAxialLenMale" = 1.7mm
+
+"stFlatHeadAxialLenFem" = 1.9mm
+
+"stDriverDepth" = 2mm
+
+"stNutODPad" = 3mm
+
+"stNutDiam" = "stOD" + "stNutODPad"
+
+"stNutHeight" = 3mm
+
+"stNutCham" = 0.4mm
+
+"lip" = 2mm
+
+"cubeCham" = 0.7mm
+
+"cubeCutoutPadding" = 3mm
+
+"wall" = 3mm
+
+"wall2" = 4.15mm
+
+"cubeCutoutFem" = "cleatSpacing" - "cleatLen" - 2*"wall2"
+
+"coverThickness" = 6mm
+
+"cutoutDepth" = 4.5mm
+
+"cutoutWidth" = 2mm
+
+"cutoutSpacing" = 13.5mm
+
+"plugDepth" = 8mm
+
+"plugCornerFill" = 3mm
+
+"bottomChamOffset" = 1.8mm
+
+"maleHelperAngle" = 45deg
+
+"maleHelperAngle2" = 35deg
+
+"temp" = 0
